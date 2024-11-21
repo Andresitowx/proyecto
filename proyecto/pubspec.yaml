@@ -1,0 +1,77 @@
+name: proyecto
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  carousel_slider: ^5.0.0
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.3.1
+  intl: ^0.18.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/img1.jpeg
+    - assets/img/img2.jpeg
+    - assets/img/img3.jpeg
+    - assets/img/img4.jpeg
+    - assets/img/img6.jpeg
+    - assets/img/img7.jpeg
+    - assets/img/img8.jpeg
+    - assets/img/img9.jpeg
+    - assets/img/img10.jpeg
+    - assets/img/img11.jpeg
+    - assets/img/img12.jpeg
+    - assets/img/img13.jpeg
+    - assets/img/img14.jpeg
+    - assets/img/img15.jpeg
+    - assets/img/img16.jpeg
+    - assets/img/jardin.jpg
+    - assets/img/parquem.jpeg
+    - assets/img/paraiso.jpg
+    - 'assets/img/img2/cielo.jpeg'
+    - 'assets/img/img2/img2.jpeg'
+    - 'assets/img/img2/img4.jpeg'
+    - 'assets/img/img2/img5.jpeg'
+    - 'assets/img/img2/img6.jpeg'
+    - 'assets/img/img2/img21.jpg'
+    - 'assets/img/img2/logo.jpeg'
+    - 'assets/img/img2/img3.jpeg'
+    - 'assets/img/img2/img9.jpeg'
+    - 'assets/img/img2/img10.jpeg'
+    - 'assets/img/img2/img11.jpeg'
+    - 'assets/img/img2/img12.jpeg'
+    - 'assets/img/img2/img13.jpeg'
+    - 'assets/img/img2/img14.jpeg'
+    - 'assets/img/img2/img15.jpeg'
+    - 'assets/img/img2/img16.jpeg'
+    - 'assets/img/img2/img17.jpeg'
+    - 'assets/img/img2/img18.jpeg'
+    - 'assets/img/img2/img19.jpeg'
+    - 'assets/img/img2/img20.jpeg'
+  fonts:
+    - family: LondrinaSketch
+      fonts:
+        - asset: assets/fonts/LondrinaSketch-regular.ttf
+
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
